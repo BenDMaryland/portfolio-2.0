@@ -13,12 +13,8 @@ function Footer({ scrollHander}) {
             </div>
 
             <div className="links">
-
                 <a className="footer_links" href="mailto: ben.d.maryland@gmail.com"  ><i className="fas fa-envelope"></i></a>
-                <a className="footer_links" href="https://www.linkedin.com/in/ben-darago/"  ><i className="fab fa-linkedin"></i></a>
                 <a className="footer_links" href="https://github.com/BenDMaryland"  ><i id="git" className="fab fa-github"></i></a>
-                <a className="footer_links" href="https://a-blog-on-rails.herokuapp.com/blogs" ><i className="fas fa-blog"></i></a>
-                <a className="footer_links" href="https://twitter.com/BenjaminDarago" ><i className="fab fa-twitter"></i></a>
             </div>
 
 

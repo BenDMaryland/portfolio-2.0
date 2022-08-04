@@ -10,7 +10,9 @@ function Resume({ scrollHander }) {
         <ResumePage id="resume" onMouseEnter={() => scrollHander("resume")}       >
 
             <iframe
+                title='resume'
                 style={{
+                  
                     width: "720px",
                     height: "110%",
                     overflow: "hidden",
@@ -20,7 +22,7 @@ function Resume({ scrollHander }) {
                     border: 'beige', 
                     justifySelf: "center"
                 }}
-                src="https://docs.google.com/document/d/e/2PACX-1vTnrOU2CiSwKdY4T_gh7cb_PGJG9PN_MDygKoLQkqDSsl6vgQknbgi3G5r-bHx5TdX60agO5YSYjzOh/pub?embedded=true"></iframe>
+                src="https://docs.google.com/document/d/e/2PACX-1vTfUAaHUPtMA1Q490Y5Y1gPtNpMXHZiuRezuzAS155Z4b1Co3ycxb7GNeqkdlRY3sch4hpMen5ORLPF/pub?embedded=true"></iframe>
           
         </ResumePage >
     )
