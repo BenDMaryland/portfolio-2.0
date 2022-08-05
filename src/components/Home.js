@@ -18,7 +18,7 @@ const [wheelLocation, setwheelLocation] = useState("intro")
     }
 
 
-// window.addEventListener("scroll",scrollInfo )
+// window.addEventListener("scroll",scrollInfo )r
 
 
     return (
