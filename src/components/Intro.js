@@ -6,8 +6,8 @@ function Intro({ scrollHander }) {
         <IntroPage id="intro" onMouseEnter={() => scrollHander("intro")}   >
             <h1> Hi I'm Ben, A Fullstack Developer  </h1>
             <div className='introlinks' >
-                <a className='introlinks'  ><i className="fas fa-mobile"></i><span> 443-546-6043</span></a>
-                <a className='introlinks' href="mailto: ben.d.maryland@gmail.com"   ><i className="fas fa-envelope"></i><span> ben.d.maryland@gmail.com</span></a>
+                <a className='introlinks'  ><i className="fas fa-mobile"></i><span> 240-301-2394</span></a>
+                <a className='introlinks' href="mailto: daragoben@gmail.com"   ><i className="fas fa-envelope"></i><span> daragoben@gmail.com</span></a>
                 <a className='introlinks' href="https://github.com/BenDMaryland"  ><span><i id="git" className="fab fa-github"></i> GitHub</span></a>
 
             </div>

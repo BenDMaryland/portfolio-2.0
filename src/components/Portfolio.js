@@ -37,29 +37,29 @@ function Portfolio({ scrollHander }) {
                             : null}
                     </section>
                     {currentPorject === 'agile' ?
-                    <section className='details'>
+                        <section className='details'>
 
 
-                        <h2>Description </h2>
-                        <p className="descrip" >A project management application where teams can create projects track progress create KBA's and see live feedback of team members performance. My final project for FlatIron. For this I wanted to create a project where I could track my own progress as I built the application.  </p>
-                        <h2>Difficulties  </h2>
-                        <p className="descrip" >My two biggest challenges for this project were, figuring out how to create the methods to track progress in the backend, and adding the teams functionality.  </p>
-                        <h2>Solutions </h2>
-                        <p className="descrip" >For serving data in the correct format I had to learn some new Ruby methods for managing time. Mainly, this allowed me to segregate data based on the dates which then allowed me to create the graphs to track progress. As for the teams functonality, that is a work in progress</p>
+                            <h2>Description </h2>
+                            <p className="descrip" >A project management application where teams can create projects track progress create KBA's and see live feedback of team members performance. My final project for FlatIron. For this I wanted to create a project where I could track my own progress as I built the application.  </p>
+                            <h2>Difficulties  </h2>
+                            <p className="descrip" >My two biggest challenges for this project were, figuring out how to create the methods to track progress in the backend, and adding the teams functionality.  </p>
+                            <h2>Solutions </h2>
+                            <p className="descrip" >For serving data in the correct format I had to learn some new Ruby methods for managing time. Mainly, this allowed me to segregate data based on the dates which then allowed me to create the graphs to track progress. As for the teams functonality, that is a work in progress</p>
 
 
-                        <p>To see all features of this page please use the default login / New accounts have limited access</p>
-                        <h2>Features </h2>
-                        <ul>
-                            <li>The teams features allows multiple teams to work on independent projects separately  </li>
-                            <li>KBA's allow teams to have one location for as a repository for all data </li>
-                            <li>The Users and Projects tabs, allow managers to track User and project progress</li>
-                            <li>Admin and Boss role allows for separation of duties</li>
-                            <li>Email.js Allows for high visibility of high impact issues</li>
-                            <li>Draft.Js allows user to format KBA's using rich text </li>
-                        </ul>
-                      
-                    </section>:null}
+                            <p>To see all features of this page please use the default login / New accounts have limited access</p>
+                            <h2>Features </h2>
+                            <ul>
+                                <li>The teams features allows multiple teams to work on independent projects separately  </li>
+                                <li>KBA's allow teams to have one location for as a repository for all data </li>
+                                <li>The Users and Projects tabs, allow managers to track User and project progress</li>
+                                <li>Admin and Boss role allows for separation of duties</li>
+                                <li>Email.js Allows for high visibility of high impact issues</li>
+                                <li>Draft.Js allows user to format KBA's using rich text </li>
+                            </ul>
+
+                        </section> : null}
 
                 </article>
 
@@ -79,16 +79,17 @@ function Portfolio({ scrollHander }) {
 
 
                             <h2>Description </h2>
-                            <p className="descrip" >A tick-tack-toe game that allows users to battle against friends, track wins, and see previous games. </p>
+                            <p className="descrip" >A Sudoku game, that generates random and fully valid boards everytime it is run. </p>
                             <h2>Difficulties  </h2>
-                            <p className="descrip" >This project's main difficulty was all the bugs that popped up as we developed it. With several bugs happening the day before our deadline  </p>
+                            <p className="descrip" >The two biggest challenges for this game were.Figuring out how to create the boards, so they were random, and taking those boards. </p>
                             <h2>Solutions </h2>
-                            <p className="descrip" >We found that our best way to resolve all the issues was to refactor a lot of the code, to make it more in-line with how react should be. For the bugs that emerged the final days we were able to make some last minute patches to make it functional, and resolve most of the issues completely after our presentation.   </p>
+                            <p className="descrip" >For making the board, I start filling in numbers one at a time then run the board through an algorithm to determine if the board is still valid if so it adds the nest number, if not we try another number, and if needed reset the board and try again.    </p>
                             <h2>Features </h2>
                             <ul>
-                                <li> Players can be created and added to the sqlite database</li>
-                                <li>When a player is chosen they are dynamically removed from the other players pool </li>
-                                <li>All games are tracked and game-states are available for all users to see </li>
+                                <li>Each board is dynamically created on page load</li>
+                                <li>Each board is made human solvable, akin to an easy difficulty game </li>
+                                <li>The game highlights numbers that the player clicks on  </li>
+                                <li>Two less finished games are also present on the page </li>
                             </ul>
 
                         </section>
