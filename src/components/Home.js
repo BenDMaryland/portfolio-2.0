@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 
 // import { NavLink, Route, Routes } from "react-router-dom";
 import styled from 'styled-components';
@@ -11,23 +11,23 @@ import Intro
     from './Intro';
 import { func } from 'prop-types';
 function Home() {
-const [wheelLocation, setwheelLocation] = useState("intro")
-    function scrollHander(loc){
+    const [wheelLocation, setwheelLocation] = useState("intro")
+    function scrollHander(loc) {
         setwheelLocation(loc)
-      
+
     }
 
 
-// window.addEventListener("scroll",scrollInfo )r
+    // window.addEventListener("scroll",scrollInfo )r
 
 
     return (
         <Portfol onScroll={() => console.log("hi")}  >
             <TopBar wheelLocation={wheelLocation} scrollHander={scrollHander} />
-            <Intro scrollHander={scrollHander}  />
-            <Portfolio scrollHander={scrollHander}  />
-            <Resume  scrollHander={scrollHander}  />
-            <Footer scrollHander={scrollHander}    />
+            <Intro scrollHander={scrollHander} />
+            <Portfolio scrollHander={scrollHander} />
+            <Resume scrollHander={scrollHander} />
+            <Footer scrollHander={scrollHander} />
         </Portfol>
 
 

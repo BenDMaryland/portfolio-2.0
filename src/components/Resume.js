@@ -12,18 +12,18 @@ function Resume({ scrollHander }) {
             <iframe
                 title='resume'
                 style={{
-                  
+
                     width: "720px",
                     height: "110%",
                     overflow: "hidden",
-                    left:" 50 %",
+                    left: " 50 %",
                     transform: "translate(0,-50 %)",
                     minHeight: "900px",
-                    border: 'beige', 
+                    border: 'beige',
                     justifySelf: "center"
                 }}
                 src="https://docs.google.com/document/d/e/2PACX-1vTfUAaHUPtMA1Q490Y5Y1gPtNpMXHZiuRezuzAS155Z4b1Co3ycxb7GNeqkdlRY3sch4hpMen5ORLPF/pub?embedded=true"></iframe>
-          
+
         </ResumePage >
     )
 }

@@ -9,11 +9,12 @@ import "./global.css"
 function App() {
   return (
     <MainBody   >
-
       <BrowserRouter>
-        <Routes>
-          <Route  path="*" element={< Home />} />
-        </Routes>
+      <Routes>
+
+
+          <Route path='/*'  element={ < Home />}></Route>
+      </Routes>
       </BrowserRouter>
     </MainBody>
   )

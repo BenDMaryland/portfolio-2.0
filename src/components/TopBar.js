@@ -4,18 +4,18 @@ import styled from 'styled-components';
 import Portfolio from './Portfolio';
 
 
-function TopBar({ wheelLocation, scrollHander}) {
+function TopBar({ wheelLocation, scrollHander }) {
 
     return (
         <Top>
 
-            <Link onClick={() => scrollHander("intro")} className="toplinks" id={wheelLocation === "intro" ? "activeloc":"notactive"}     to="/#intro">Intro</Link>
-            <Link onClick={() => scrollHander("portfolio")}  className="toplinks" id={wheelLocation === "portfolio" ? "activeloc" : "notactive"}     to="/#portfolio">Portfolio</Link>
-            <Link onClick={() => scrollHander("resume")}  className="toplinks" id={wheelLocation === "resume" ? "activeloc" : "notactive"}   to="/#resume">Resume</Link>
-            <Link onClick={() => scrollHander("footer")}  className="toplinks" id={wheelLocation === "footer" ? "activeloc" : "notactive"}   to="/#footer">Contacts</Link>
+            <Link onClick={() => scrollHander("intro")} className="toplinks" id={wheelLocation === "intro" ? "activeloc" : "notactive"} to="/#intro">Intro</Link>
+            <Link onClick={() => scrollHander("portfolio")} className="toplinks" id={wheelLocation === "portfolio" ? "activeloc" : "notactive"} to="/#portfolio">Portfolio</Link>
+            <Link onClick={() => scrollHander("resume")} className="toplinks" id={wheelLocation === "resume" ? "activeloc" : "notactive"} to="/#resume">Resume</Link>
+            <Link onClick={() => scrollHander("footer")} className="toplinks" id={wheelLocation === "footer" ? "activeloc" : "notactive"} to="/#footer">Contacts</Link>
 
 
-            
+
         </Top>
     )
 }

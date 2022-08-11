@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Footer({ scrollHander}) {
+function Footer({ scrollHander }) {
     return (
-        <Foot id="footer"  onMouseEnter={() => scrollHander("footer")} >
+        <Foot id="footer" onMouseEnter={() => scrollHander("footer")} >
             <br />
             <br />
             <div className="tagline" >
@@ -20,7 +20,7 @@ function Footer({ scrollHander}) {
 
             <div>
                 <br />
-               
+
                 <p className="bar">____</p>
                 <br />
 
